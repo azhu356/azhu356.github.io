@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800&display=swap'); 
+
+:root {
+    --accent: hwb(0 12% 87% / 0.728);
+    --bkgrnd: #e1eeef;
+    --light: #fbfbfb; 
+    --overLayStart: rgba(55,55,86,0.9);
+    --overLayEnd: rgba(55,55,86,0.7); 
+    --ease: all 0.3s ease 0s; 
+    --projects: #800060; 
+}
+
+body {
+    background-color: var(--light);
+    background-image:url(images/Background.PNG);
+    max-height: 100%;
+    max-width: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    text-align: justify; 
+    font-family: "Leelawadee", sans-serif;
+    color: var(--accent);
+    margin-bottom: auto;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:rgb(11, 88, 129); 
+    text-decoration: none;
+}
+
+.top_content {
+    position: relative;
+    width: 100%; 
+    height: auto;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.profile_pic {
+    float: left;
+    width: 200px;
+    height: 200px; 
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+
+.wrapper {
+    position: relative; 
+    left: 20px;
+}
+
+.title {
+    padding-top: 40px;
+    padding-bottom: 0px; 
+    padding-right: 0px; 
+    padding-left: 3px; 
+    font-size: 28px; 
+    font-weight: 400;
+    line-height: 20px;  
+}
+
+.email {
+    font-size: 17px;
+    font-weight: 100;
+    padding-top: 0px; 
+    padding-left: 15px;
+}
+
+.contacts {
+    font-size: 17px; 
+    font-weight: 200; 
+    padding-left: 5px;
+}
+
+.Bio {
+    margin-top: auto;
+    padding-top: 75px; 
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 0px;   
+}
+
+.about_me {
+    font-size: 28px; 
+    font-weight: 350; 
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    padding-left: 2%;
+}
+
+.about_me_bio {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 0px; 
+    padding-left: 2%;
+    line-height: 1.5;  
+}
+
+.middle {
+    margin-top: auto;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;  
+    text-align: left; 
+}
+
+.bottom {
+    margin-top: auto;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;  
+    text-align: left; 
+}
+
+.projects_title {
+    font-size: 28px; 
+    font-weight: 350; 
+    padding-bottom: 0px;
+    padding-top: 2%; 
+    margin-bottom: 0%;
+    padding-left: 2%;
+    text-decoration: bold;
+}
+
+.project1 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0%; 
+    padding-left: 2%;
+} 
+
+.project2{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 20%; 
+    padding-left: 2%;
+}
+
+.project3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 10%; 
+    padding-left: 2%;
+}
+
+.project4 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0%; 
+    padding-left: 2%;
+}
+
+.project5 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 10%; 
+    padding-left: 2%;
+}
+
+.proj_pic {
+    padding-right: 2%;
+    float: left; 
+    overflow: hidden;  
+}
+
+.projects_details {
+    font-size: 18px;
+    font-weight: 100; 
+    padding-top: 2%; 
+    padding-left: 20%;
+    position: relative; 
+}
+
+.links{
+    font-size: 18px; 
+    font-weight: 200; 
+    padding-top: 0px; 
+    padding-left: 2%;
+}
+
+.year {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 0px; 
+    padding-left: 2%;
+    padding-bottom: 0%;  
+}
+
+.other_title {
+    font-size: 28px; 
+    font-weight: 350; 
+    padding-top: 10%;
+    margin-bottom: 0%;
+    padding-left: 2%;
+    text-decoration: bold; 
+    position: relative;
+}
+
+.teach_role{
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 0%; 
+    padding-left: 2%;    
+}
+
+
+.tech_role{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 0%; 
+    padding-left: 2%;    
+}
+
+.non_tech_role{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5%; 
+    padding-left: 2%;    
+}
+
+.course {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 0px; 
+    padding-left: 2%;
+}
+
+.course_details {
+    font-size: 16px;
+    font-weight: 65;
+    padding-top: 0px;
+    padding-bottom: 10px;  
+    padding-left: 2%;
+    line-height: 1.5; 
+}
+
+.honors {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 0px; 
+    padding-left: 2%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    padding-left: 2%
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.art {
+    font-size: 28px; 
+    font-weight: 350; 
+    padding-bottom: 0px;
+    padding-top: 20%; 
+    margin-bottom: 0%;
+    padding-left: 2%;
+    text-decoration: bold;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 10px; 
+    text-align: right;
+    margin-right: auto;    
+}
